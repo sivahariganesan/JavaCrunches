@@ -1,3 +1,4 @@
+import java.util.HashSet;
 import java.util.Queue;
 
 public class CheckForBST
@@ -25,7 +26,7 @@ public class CheckForBST
 
     boolean isValidLeftTree(Node leftRoot, int rootData)
     {
-        Queue<Node> queue = new LinkedList();
+        Queue<Node> queue = (Queue<Node>) new LinkedList();
         if (leftRoot != null)
         {
             queue.add(leftRoot);
@@ -54,7 +55,7 @@ public class CheckForBST
 
     boolean isValidRightTree(Node rightRoot, int rootData)
     {
-        Queue<Node> queue = new LinkedList();
+        Queue<Node> queue = (Queue<Node>) new LinkedList();
         if (rightRoot != null)
         {
             queue.add(rightRoot);
@@ -116,7 +117,7 @@ public class CheckForBST
 
     boolean checkForDuplicates(Node root)
     {
-        Queue<Node> queue = new LinkedList();
+        Queue<Node> queue = (Queue<Node>) new LinkedList();
         HashSet     set   = new HashSet();
         queue.add(root);
         while (!queue.isEmpty())

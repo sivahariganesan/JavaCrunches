@@ -11,11 +11,12 @@ public class Test
         HashSet test = new HashSet();
         test.size();
         test.iterator();
-
         for (int a_i = 0; a_i < n; a_i++)
         {
             a[a_i] = in.nextInt();
         }
+        int[] testasd=new int[0];
+        System.out.println(testasd.length);
         int numberOfSwaps = sort(a, n, 0);
         System.out.println("Array is sorted in " + numberOfSwaps + " swaps.");
         System.out.println("First Element: " + a[0]);

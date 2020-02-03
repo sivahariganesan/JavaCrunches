@@ -7,6 +7,7 @@ public class Anagram
     /** Comments Added **/
     /**Test Comment**/
     /** THird Comment **/
+    /** Comment - 4 **/
     public static int numberNeeded(String first, String second)
     {
         char[] charArray = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
